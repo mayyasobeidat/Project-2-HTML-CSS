@@ -366,6 +366,8 @@ footer {
                 padding-left: 522px;
                 position: absolute;
                 padding-bottom: 5px;
+                transition: width 2s, height 4s;
+
               }
               
               .ore{
@@ -373,8 +375,18 @@ footer {
                 padding-top: 3px;
                 padding-left: 525px;
                 position: absolute;
+                transition: width 2s, height 4s;}
 
+                .ore:hover {
+                    width: 60px;
+                    height: auto;
               }
+              .uni:hover {
+                width: 70px;
+                height: auto;
+          }
+
+
               .fff {
                   line-height: 3px;
               
@@ -392,6 +404,8 @@ footer {
                 padding: 10px;
                 width: 563px;
                 position: static;
+                padding-left:30px ;
+                padding-right:30px ;
               }
 
               .courses-div{
