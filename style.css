@@ -705,11 +705,11 @@ position: static;
 }
 .uni{
     width: 0px;
-}
-.navbar{
-    
 
 }
+
+
+
 
 .technicalh{
     font-size: 20px;
@@ -727,35 +727,15 @@ position: static;
 }
 
 .languagetext{
+  
     font-size: 15px;
+
 }
 
+  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-                    }
+}
                               
         
 
@@ -776,13 +756,12 @@ position: static;
         margin-bottom: 0px;
         font-size: 15px;
         padding-left: 40px;
-
+    
     }
 
+
     #mypics{
-       
             margin-bottom: 40px;
-        
     }
 
  
@@ -793,7 +772,6 @@ position: static;
         background-image: url(headerpic.png);
         padding: 45px 0px;
         width: 101%;
-
 }
 
 
@@ -801,18 +779,22 @@ position: static;
 button{
     font-size: 10px;
     padding: 5px;
-
-  
 }
 
 
 
 .cardskills{
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+}
+
     .cardskills2{
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+    }
+
         .cardskills3{
-            flex-wrap: wrap;}
+            flex-wrap: wrap;
+        }
+
             .myskills{
                 flex-wrap: wrap;
                 gap: 0px;
@@ -850,15 +832,12 @@ button{
                         width: 100%;
                     }
                    
-                    
-
                     .titles {
                         font-size: 35px;
                         padding-left: 50px;
                             padding-top: 0px;
                             padding-bottom: 0px;
                         }
-
 
                         .secondtext {
                             font-size: 20px;
@@ -869,20 +848,8 @@ button{
                         }
 
 
-
-
-
-
                         
-/* 
-                        .education{
-                            background-color: #DCDCDC;
-                            padding-left: 110px;
-                            position: relative;
-                            padding-bottom: 0px;
-                           } */
-
-                           .firsttext {
+                        .firsttext {
                             font-size: 20px;
                         }
                         
