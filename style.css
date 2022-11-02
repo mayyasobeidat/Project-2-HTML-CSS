@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: #DCDCDC;
+    width: 100%;
    
 }
 
@@ -32,9 +33,7 @@ ul.topnav li a {
 }
 
 
-ul.topnav li a.active {
-    background-color: #04AA6D;
-}
+
 
 ul.topnav li.right {
     float: right;
@@ -84,10 +83,10 @@ ul.topnav li.right {
 
   }
 
- 
+
 
  .headerpic{
-    background-image: url("headerpic.png");
+    background-image: url("images/headerpic.png");
     padding:100px 210px;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -118,6 +117,7 @@ ul.topnav li.right {
    #buttondownload{
     padding: 0px 90px;
    }
+
 
 
    .education{
@@ -198,9 +198,11 @@ ul.topnav li.right {
     background-color:#DCDCDC; 
     border:  #FECB00 10px solid;
     border-radius: 20px;
-
-
 }
+
+
+
+
 
 #skills{
     padding-top: 40px;
@@ -210,11 +212,16 @@ ul.topnav li.right {
     float: right;
 }
 
+
 .technical{
-    width: 99%;
+
     text-align: center;
     padding: 48px 8px ;
+
 }
+
+
+
 
 .technicalh{
     font-size: 30px;
@@ -225,10 +232,11 @@ ul.topnav li.right {
     flex-direction: row;
     justify-content: center;
     gap: 15px;
+
 }
 
 
-   
+
     .cardskills2{
         display: flex;
     flex-direction: row;
@@ -381,18 +389,17 @@ footer {
                     width: 60px;
                     height: auto;
               }
+
+
+
+
               .uni:hover {
                 width: 70px;
                 height: auto;
-          }
 
+            }
+              
 
-              .fff {
-                  line-height: 3px;
-              
-              }
-              
-              
               .mayyass{
                   width:400px ;
                   margin-left: 210px;
@@ -467,34 +474,16 @@ footer {
         justify-content: center; 
     }
 
-    
+    .divskills_{
+        
+    background-color: #F0F0F0;
+}
 
-
-
-
-            
-
-
-
-
+#burgur{
+    display: none;
+}
 
               
-
-              
-
-
-            
-
-              
-  
-
-
-
-
-
-
-
-
 
 
 
@@ -505,7 +494,7 @@ footer {
 
 @media only screen and (min-device-width: 0px) and (max-device-width:480px){
 
-  
+
 
 
     ul.topnav li.right,
@@ -531,10 +520,12 @@ footer {
 }
 
 .headerpic {
-    background-image: url(headerpic.png);
+    background-image: url(images/headerpic.png);
+    object-fit: cover;
+    object-position: 20;
     padding: 240px 30px;
-    width: 315px;
-    height: 130px;
+    width: 83%;
+    height: 70px;
 }
 .educationmayyas{
     flex-wrap: wrap;
@@ -651,18 +642,19 @@ button{
 }
 
 .mayyass {
-   width: 260px;
+   width: 90%;
    margin-left: 15px;
 }
+
+
 
 .myskills{     
    padding-left: 100px; 
    padding-right: 100px;
    border: #FECB00 5px solid;
-}
-
-.myskills{
-    background-color: #DCDCDC;
+   
+   
+   background-color: #DCDCDC;
     flex-wrap: wrap;
     gap: 0px;
     margin-right: 50px;
@@ -681,13 +673,17 @@ button{
 }
 
 .uni{
+    display: none;
+
 width: 0px;
 position: static;
 }
 
 .ore{
+    display: none;
 width: 0px;
 position: static;
+
 }
                      
 .edu-box{
@@ -732,7 +728,40 @@ position: static;
 
 }
 
-  
+.navbar{
+    width: 167%;
+}
+
+.technical{
+
+    width: 95%;
+}
+.right{
+    display: none;
+}
+
+#logo:hover{
+    display:none;
+}
+
+#burgur{
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 10px; 
+    margin-left: 10px;
+    color: #000000; 
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#burgur:hover{
+    color: #FECB00;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: none;
+}
+
 
 
 }
@@ -748,10 +777,15 @@ position: static;
 @media only screen and (min-device-width: 481px) and (max-device-width:768px){
 
 
+
     #myname {
         font-size: 40px;
         padding-left: 40px;
     }
+
+
+
+
     .firstpar{
         margin-bottom: 0px;
         font-size: 15px;
@@ -760,23 +794,27 @@ position: static;
     }
 
 
+
+
+
+
     #mypics{
             margin-bottom: 40px;
     }
 
- 
+
 
 
 
     .headerpic {
-        background-image: url(headerpic.png);
+        background-image: url(images/headerpic.png);
         padding: 45px 0px;
-        width: 101%;
-}
+        width: 100%;
+    }
+    
 
 
-
-button{
+    button{
     font-size: 10px;
     padding: 5px;
 }
@@ -943,17 +981,19 @@ button{
                     .uni{
                         width: 0px;
                     }
+
                     .ore{
                         width: 0px;
 
                     }
-                    
-                    .text-edu{
-                        width: 0px;
-                    }
+                       
+
+
                     .course-div{
                         width: 290px;
                     }
+
+
                     .flex-container{
                         flex-wrap: wrap;
                     }
@@ -966,6 +1006,7 @@ button{
                     }
                     .edu-box{
                         margin-left: 80px;
+                        width: 520px;
                     }
 
 
@@ -974,12 +1015,20 @@ button{
                         margin: 15px;
                     }
 
-             
-                   
+                
+
+                    .technical {
+                        width: 100%;     
+                        padding: 0%;          
 
 }
-            
-        
-        
-    
 
+.experience{
+
+    width: 97%;
+}
+footer {
+    width: 102%;
+}    
+    
+}
